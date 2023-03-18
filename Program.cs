@@ -100,8 +100,10 @@ Console.WriteLine($"La cadena en mayúsculas es: {mayusculas}");
 double distancia = calcDistancia(5, 5, 6, -2);
 Console.WriteLine($"La distancia entre los puntos es: {distancia}");
 
-int suma = calcSumaNaturales(10);
-Console.WriteLine($"La suma de los primeros 5 números naturales es: {suma}");
+int num1 = 10;
+int suma = calcSumaNaturales(num1);
+Console.WriteLine($"La suma de los primeros {num1} números naturales es: {suma}");
 
-int factorial = calcFactorial(6);
-Console.WriteLine($"El factorial de 5 es: {factorial}");
+int num2 = 6;
+int factorial = calcFactorial(num2);
+Console.WriteLine($"El factorial de {num2} es: {factorial}");
